@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hashat - Einstellungen</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <script src="assets/js/jquery.js"></script>
+    </head>
+    <body>
+        <div class="container my-5">
+            <img src="https://hashat.app/assets/img/logo.png" alt="Hashat Logo" width="100" class="mb-5">
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="radioA" id="radioA" disabled>
+                <label class="form-check-label" for="radioA">
+                    <b>URLs automatisch prüfen</b>
+                    <span class="badge bg-primary bg-opacity-25 text-primary">Bald verfügbar</span>
+                    <br>
+                    <span class="form-text">
+                        Hashat prüft automatisch, ob aufgerufen URLs möglicherweise schädlich sind.
+                    </span>
+                </label>
+            </div>
+            <div class="form-check mt-3">
+                <input class="form-check-input" type="radio" name="radioM" id="radioM" checked>
+                <label class="form-check-label" for="radioM">
+                    <b>URLs nur manuell prüfen</b>
+                    <br>
+                    <span class="form-text">
+                        Aufgerufene URLs werden erst geprüft, wenn du die Überprüfung manuell anforderst.
+                    </span>
+                </label>
+            </div>
+
+            <button class="btn btn-primary mt-5" disabled>Speichern</button>
+
+        </div>
+
+        <script src="assets/js/popup.js" defer></script>
+    </body>
+</html>
